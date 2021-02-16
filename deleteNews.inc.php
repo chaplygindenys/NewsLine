@@ -4,7 +4,7 @@
      if(!$news->daleteNews($id)){
          $errMsg="Произошла ошибка при удалении новости";
      }else{
-         header("Location:news.php");
+         header("Location:index.php");
          exit;
      }
  }

@@ -24,7 +24,7 @@ if($errMsg){
     echo "<h3>$errMsg</h3>";
 }
 ?>
-<form action="news.php" method="post">
+<form action="index.php" method="post">
        Заголовок новости:<br/>
     <label>
     <input type="text" name="title"/><br />

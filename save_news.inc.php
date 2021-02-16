@@ -12,7 +12,7 @@ if(empty($title) or empty($description)){
     if (!$news->saveNews($title, $category, $description, $sourse)){
         $errMsg="Произошла ошибка при добовление новости";
     }else{
-        header("Location:news.php");
+        header("Location:index.php");
         exit;
     }
 }
