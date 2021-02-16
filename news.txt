@@ -1,0 +1,24 @@
+# table msgs
+
+CREATE TABLE msgs(id INTEGER PRIMARY KEY AUTOINCREMENT,
+title TEXT,
+category INTEGER,
+description TEXT,
+source TEXT,
+datetime INTEGER
+)
+#############################################################33333
+# table category
+
+CREATE TABLE category(
+id INTEGER,
+name TEXT
+)
+
+#########################################################################
+#################### add to table categoty
+INSERT INTO category(id, name)
+SELECT 1 as id 'Политика' as name
+ UNION SELECT 2 as id, 'Культура' as name
+ UNIOIN SELECT 3 as id 'Спотр' as name
+ #############3
