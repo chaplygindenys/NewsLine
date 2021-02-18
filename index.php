@@ -46,5 +46,6 @@ if($errMsg){
 <?php
 require_once "get_news.inc.php";
 ?>
+<span><a href="rss.php">RSS</a></span>
 </body>
 </html>
